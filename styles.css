@@ -19,7 +19,7 @@ main {
 }
 
 header {
-  background: #3D3834;
+  background: #384146;
   color: #fff;
   width: 100%;
   display: flex;
@@ -39,7 +39,7 @@ header h1 {
   width: 100%;
 }
 .form {
-  background: #3D3834;
+  background: #384146;
   padding: 10px;
   color: #fff;
   max-width: 500px;
