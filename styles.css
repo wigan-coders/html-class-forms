@@ -8,7 +8,6 @@ body {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
-  width: 100%;
 }
 
 main {
@@ -16,7 +15,7 @@ main {
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 30%;
+    top: 10%;
     
 }
 
@@ -37,12 +36,22 @@ header h1 {
   background: #642a84;
   padding: 10px;
   color: #fff;
-  width: 100%;
-  max-width: 350px;
+  max-width: 500px;
   text-align: center;
+  width: 100%;
+  border-radius: 10px;
+
 
 }
-form {
+.name-email {
+    width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.gender {
     width: 100%;
     display: flex;
     justify-content: center;
