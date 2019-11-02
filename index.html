@@ -16,11 +16,13 @@
     </header>
 
     <main>
+            <h2 class="h2">Get out and get fit today!</h2>
+
       <div class="form">
-        <h2 class="form-h2">Get out and get fit today!</h2>
         <form>
           <!-- name and email -->
           <div class="name-email">
+                <h3>Name and Email</h3>
             <label for="firstName"
               >First Name:
               <input
@@ -45,7 +47,8 @@
                 placeholder="enter your email address"
               />
             </label>
-            <div class="gender">
+          </div>
+          <div class="gender">
                 <h3>Gender</h3>
                 <label for="gender">Male</label>
                 <input type="radio" name="gender">
@@ -54,8 +57,18 @@
                 <label for="gender">Prefer not to say</label>
                 <input type="radio" name="gender">
             </div>
-          </div>
+            <div class="location">
+                    <h3>Location</h3>
+                    <select name="location" id="location">
+                        <option value="America">America</option>
+                        <option value="Australia">Australia</option>
+                        <option value="United Kingdom">United Kingdom</option>
+                        <option value="Africa">Africa</option>
+                        <option value="other">other</option>
 
+                    </select>
+          
+                </div>
           <!-- gender -->
         </form>
       </div>
